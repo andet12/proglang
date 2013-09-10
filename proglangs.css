@@ -1,0 +1,24 @@
+body{
+	text-align: center;
+	background-color:#b0c4de;
+}
+#A {
+	color: red;
+	font-weight: bold;
+}
+#B {
+	color: blue;
+	font-weight: bold;
+}
+#C {
+	color: yellow;
+	font-weight: bold;
+}
+#Resten {
+	color: green;
+	font-weight: bold;
+}
+
+li{
+	list-style-type: none;
+}
