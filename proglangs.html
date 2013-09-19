@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 
 <!--
-  LAB1
+  LAB2
   Navn: Anders Thingelstad
-  Tiden jeg har brukt på oppgaven: 4-5 timer
 -->
 
 <head>
@@ -16,74 +15,9 @@
 
 <html>
 <body>
-
-	<h1>Programmeringssprak - Deloppgave 0</h1>
-
-	<ul>
-		<span id="A">
-		<li>ActionScript</li>
-		<li>AppleScript</li>
-		</span>
-		<span id="B">
-		<li>BASIC</li>
-		</span>
-		<span id="C">
-		<li>C</li>
-		<li>C++</li>
-		<li>Clojure</li>
-		<li>COBOL</li>
-		<li>ColdFusion</li>
-		</span>
-		<span id ="Resten">
-		<li>Erlang</li>
-		<li>Fortran</li>
-		<li>Groovy</li>
-		<li>Haskell</li>
-		<li>Java</li>
-		<li>JavaScript</li>
-		<li>Lisp</li>
-		<li>Perl</li>
-		<li>PHP</li>
-		<li>Python Ruby</li>
-		<li>Scala</li>
-		<li>Scheme</li>
-		</span>
-	</ul>
-	
-	<h1>Programmeringssprak - Deloppgave 1</h1>
-	
-	<form>
-		<label for="proglangs">Velg:</label>
-		<select>
-			<option value="ActionScript">ActionScript</option>
-			<option value="AppleScript">AppleScript</option>
-			<option value="Asp">Asp</option>
-			<option value="BASIC">BASIC</option>
-			<option value="C">C</option>
-			<option value="Cplusspluss">C++</option>
-			<option value="Clojure">Clojure</option>
-			<option value="COBOL">COBOL</option>
-			<option value="ColdFusion">ColdFusion</option>
-			<option value="Erlang">Erlang</option>
-			<option value="Fortran">Fortran</option>
-			<option value="Groovy">Groovy</option>
-			<option value="Haskell">Haskell</option>
-			<option value="Java">Java</option>
-			<option value="JavaScript">JavaScript</option>
-			<option value="Lisp">Lisp</option>
-			<option value="Perl">Perl</option>
-			<option value="PHP">PHP</option>
-			<option value="Python">Python</option>
-			<option value="Ruby">Ruby</option>
-			<option value="Scala">Scala</option>
-			<option value="Scheme">Scheme</option>
-		</select>
-	</form>
-		
-		<h1>Programmeringssprak - Deloppgave 2</h1>
 		
 	<form>
-		<label for="proglangs">Velg:</label>
+		<label for="proglangs">Velg programmeringssprak:</label>
 		<select name="selectpl" id="proglangs" onChange="ToOutbox(this)">
 			<option value="ActionScript">ActionScript</option>
 			<option value="AppleScript">AppleScript</option>
@@ -110,7 +44,19 @@
 		</select>
 	</form>
 	
-	<span id="output">Du har ikke valgt et programmeringssprak!</span>
+	<ul class="navbar">
+		<li><a href="proglangs.html">Hjem</a>
+		<li onclick="advarsel()" value="Show alert box"><a href="proglangs.html">Kronologisk</a>
+		<li onclick="advarsel()" value="Show alert box"><a href="proglangs.html">Hierarkisk</a>
+		<li onclick="advarsel()" value="Show alert box"><a href="proglangs.html">Alfabetisk</a>
+	</ul>
+	
+	<h1>Programmeringssprak</h1>
+	
+	<span id="output">Velkommen til en mystisk verden av programmeringssprak!</span>
+	
+	<address>Made 18 September 2013<br>
+	by Anders</address>
 	
 </body>
 </html>
